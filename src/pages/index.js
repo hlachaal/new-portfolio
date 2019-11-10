@@ -14,7 +14,6 @@ const IndexPage = ({ data }) => {
         <Link className={indexStyles.logo} to="/">
           <h1>Hamdi Lachaal</h1>
         </Link>
-
         <Menu />
       </div>
       <div className={indexStyles.indexContent}>

@@ -34,7 +34,7 @@ const Menu = props => {
             Work
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             className={menuStyles.navItem}
             activeClassName={menuStyles.activeNavItem}
@@ -43,7 +43,7 @@ const Menu = props => {
           >
             Blog
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             className={menuStyles.navItem}
