@@ -10,7 +10,7 @@ const WorkPage = ({ data }) => {
       <div className={workStyles.workContainer}>
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
-            <h3>Current website</h3>
+            <h3>Current portfolio</h3>
             <p>Developed from scratch with Gatsby.</p>
             <ul className={workStyles.contentSkills}>
               <li>HTML</li>
