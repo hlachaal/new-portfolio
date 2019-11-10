@@ -1,0 +1,31 @@
+footer {
+  display: flex !important;
+  flex-direction: row;
+  text-align: center;
+  color: #999999;
+  padding: 0 20px 0 20px;
+  p {
+    margin: 0 0 5px;
+  }
+}
+.copyRight {
+  flex: 1;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+}
+.socialMedia {
+  flex: 1;
+  align-items: flex-end;
+  text-align: right;
+  span {
+    margin-left: 10px;
+    a {
+      color: #687176;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #4e476b;
+    }
+  }
+}

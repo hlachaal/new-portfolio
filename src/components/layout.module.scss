@@ -1,0 +1,44 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .layoutMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding: 20px 20px 0;
+    overflow: hidden;
+  }
+  .layoutContent {
+    flex-grow: 1;
+  }
+  .layoutPageContent {
+    flex-grow: 1;
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 0px 20px 1.45rem;
+  }
+}
+.logo {
+  font-family: "Gochi Hand";
+  color: #4e476b;
+  flex: 1;
+  text-decoration: none;
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .layoutMenu {
+    flex-direction: column !important;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .layoutMenu li {
+    flex: 1;
+  }
+}

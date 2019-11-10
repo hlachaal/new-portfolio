@@ -1,0 +1,24 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.nav-item {
+  color: #999999;
+  font-size: 0.9rem;
+  margin-left: 1.3rem;
+  text-decoration: none;
+  flex: 1;
+}
+.nav-item:hover {
+  color: #666666;
+}
+.active-nav-item {
+  color: #4e476b;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    //width: 35%;
+  }
+}
