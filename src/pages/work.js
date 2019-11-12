@@ -6,7 +6,10 @@ import Img from "gatsby-image"
 
 const WorkPage = ({ data }) => {
   return (
-    <Layout pageTitle="Work sample" pageDescription="Some of the web programming projects that I worked on.">
+    <Layout
+      pageTitle="Work sample"
+      pageDescription="Some of the web programming projects that I worked on."
+    >
       <div className={workStyles.workContainer}>
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
@@ -148,13 +151,6 @@ export const query = graphql`
     calleridreputation: file(
       relativePath: { eq: "images/work/calleridreputation.png" }
     ) {
-      childImageSharp {
-        fluid(maxWidth: 1024) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    foot: file(relativePath: { eq: "images/work/coaching-foot.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1024) {
           ...GatsbyImageSharpFluid
