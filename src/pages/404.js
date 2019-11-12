@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 const NotFound = () => {
   return (
-    <Layout>
+    <Layout pageTitle={"Page not found"}>
       <h1>Page not found</h1>
       <p>
         <Link to="/">Home</Link>

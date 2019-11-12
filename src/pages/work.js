@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 
 const WorkPage = ({ data }) => {
   return (
-    <Layout>
+    <Layout pageTitle="Work sample" pageDescription="Some of the web programming projects that I worked on.">
       <div className={workStyles.workContainer}>
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
@@ -82,28 +82,6 @@ const WorkPage = ({ data }) => {
           </div>
           <div className={workStyles.itemImage}>
             <Img fluid={data.calleridreputation.childImageSharp.fluid} />
-          </div>
-        </div>
-
-        <div className={workStyles.workItem}>
-          <div className={workStyles.itemText}>
-            <h3>Coaching Foot</h3>
-            <p>
-              My work reflected to positive results in level of maximizing the
-              page loading speed, improving the traffic on the websites, adding
-              an easy way to manage the content and delivering valid code
-              standards.
-            </p>
-            <ul className={workStyles.contentSkills}>
-              <li>PHP</li>
-              <li>MySQL</li>
-              <li>Node.js</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          <div className={workStyles.itemImage}>
-            <Img fluid={data.foot.childImageSharp.fluid} />
           </div>
         </div>
 

@@ -29,6 +29,7 @@ export const query = graphql`
   }
 `
 const Blog = props => {
+  let paragraph = ""
   const options = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node, children) => (
@@ -40,7 +41,7 @@ const Blog = props => {
     },
   }
   return (
-    <Layout>
+    <Layout blog pageTitle={props.data.contentfulBlogPost.title}>
       <div className={blogStyles.blogHeader}>
         <h1>{props.data.contentfulBlogPost.title}</h1>
         <hr />

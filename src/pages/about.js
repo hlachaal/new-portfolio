@@ -5,7 +5,7 @@ import man from "../images/pic_about.svg"
 
 const AboutPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="About" pageDescription="A brief recap about my Web development experience.">
       <section
         className={[aboutStyles.cdContainer, aboutStyles.cdTimeline].join(" ")}
       >

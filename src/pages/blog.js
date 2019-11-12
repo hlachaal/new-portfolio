@@ -43,7 +43,7 @@ const BlogPage = () => {
   `)
   //console.log(data)
   return (
-    <Layout>
+    <Layout pageTitle="Blog" pageDescription="Topics about web and mobile programming.">
       <ol>
         {data.allContentfulBlogPost.edges.map((edge, idx) => {
           let paragraph = ""
