@@ -29,7 +29,6 @@ export const query = graphql`
   }
 `
 const Blog = props => {
-  let paragraph = ""
   const options = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node, children) => (
