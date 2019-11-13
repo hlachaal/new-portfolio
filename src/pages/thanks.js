@@ -3,7 +3,11 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <h1>Thank you!</h1>
-    <p>This is a custom thank you page for form submissions</p>
+    <h1>Thank you for getting in touch!</h1>
+    <p>
+      I appreciate your message. Will get back in touch with you soon!
+      <br />
+      Have a great day!
+    </p>
   </Layout>
 )
