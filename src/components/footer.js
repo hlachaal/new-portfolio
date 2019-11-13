@@ -24,7 +24,7 @@ const Footer = () => {
       <p className={footerStyles.socialMedia}>
         <span>
           <a href="https://github.com/hlachaal">
-            <FontAwesomeIcon icon={faGithub} size="2x" />
+            <FontAwesomeIcon icon={faGithub} className="fa-2x" />
           </a>
         </span>
         {/* <span>
