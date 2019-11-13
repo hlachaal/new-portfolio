@@ -1,0 +1,23 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  form {
+    display: flex;
+    flex-direction: column;
+    .formItem {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+    }
+    input {
+      flex: 1;
+    }
+    textarea {
+      flex: 1;
+    }
+    button {
+      flex: 1;
+    }
+  }
+}
