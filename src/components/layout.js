@@ -10,11 +10,15 @@ import layoutStyles from "./layout.module.scss"
 const Layout = props => {
   return (
     <div className={layoutStyles.layoutContainer}>
-      <Head blog={props.blog ? true : false} pageTitle={props.pageTitle} pageDescription={props.pageDescription} />
+      <Head
+        blog={props.blog ? true : false}
+        pageTitle={props.pageTitle}
+        pageDescription={props.pageDescription}
+      />
       <div className={layoutStyles.layoutContent}>
         <div className={layoutStyles.layoutMenu}>
           <Link className={layoutStyles.logo} to="/">
-            {/* <h1>Hamdi Lachaal</h1> */}
+            <h1>{"<>Hamdi Lachaal</>"}</h1>
           </Link>
           <Menu />
         </div>

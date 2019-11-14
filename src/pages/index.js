@@ -11,10 +11,13 @@ import indexStyles from "./index.module.scss"
 const IndexPage = ({ data }) => {
   return (
     <div className={indexStyles.indexContainer}>
-      <Head pageTitle={"Home page"} pageDescription="Web developer with a passion for JavaScript."/>
+      <Head
+        pageTitle={"Home page"}
+        pageDescription="Web developer with a passion for JavaScript."
+      />
       <div className={indexStyles.indexMenu}>
         <Link className={indexStyles.logo} to="/">
-          {/* <h1>Hamdi Lachaal</h1> */}
+          <h1>{"<>Hamdi Lachaal</>"}</h1>
         </Link>
         <Menu />
       </div>

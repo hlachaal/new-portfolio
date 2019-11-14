@@ -34,6 +34,8 @@ const ContactPage = () => {
   return (
     <Layout pageTitle="Contact" pageDescription="Best way to contact me.">
       <div className={contactStyles.contactContainer}>
+        <h1>Thanks for your interest in contacting me.</h1>
+        <p>How can I help you?</p>
         <form
           name="contact"
           method="POST"
