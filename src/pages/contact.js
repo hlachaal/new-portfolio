@@ -67,7 +67,7 @@ const ContactPage = () => {
               type="email"
               name="email"
               id="email"
-              placeholder="email"
+              placeholder="Email"
               required
               onChange={handleChange}
             />
@@ -78,7 +78,7 @@ const ContactPage = () => {
               name="message"
               id="message"
               rows="5"
-              placeholder="message"
+              placeholder="Message"
               required
               onChange={handleChange}
             />
