@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import aboutStyles from "./about.module.scss"
 import man from "../images/pic_about.svg"
@@ -171,7 +172,8 @@ const AboutPage = () => {
             <p>
               With the mixture of my programming knowledge and experience, I'm
               able to turn your idea to reality. Want to hire me? Need some
-              contract work? Just want to chat? Contact me via email.
+              contract work? Just want to chat?{" "}
+              <Link to="/contact">Contact me</Link>.
             </p>
             <span className={aboutStyles.cdDate}>Present</span>
           </div>

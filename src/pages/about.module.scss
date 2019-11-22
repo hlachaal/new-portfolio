@@ -180,6 +180,9 @@ Main components
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  a {
+    color: #fff;
+  }
 }
 
 .cd-timeline-content::before {

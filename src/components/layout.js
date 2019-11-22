@@ -18,7 +18,7 @@ const Layout = props => {
       <div className={layoutStyles.layoutContent}>
         <div className={layoutStyles.layoutMenu}>
           <Link className={layoutStyles.logo} to="/">
-            <h1>{"<>Hamdi Lachaal</>"}</h1>
+            <h1>{"<Hamdi Lachaal />"}</h1>
           </Link>
           <Menu />
         </div>
