@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
     <div className={indexStyles.indexContainer}>
       <Head
         pageTitle={"Home page"}
-        pageDescription="Web developer with a passion for JavaScript."
+        pageDescription="Software engineer with a passion for web development and JavaScript."
       />
       <div className={indexStyles.indexMenu}>
         <Link className={indexStyles.logo} to="/">
@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
         <div className={indexStyles.imageContainer}>
           <img alt="Hamdi Listening" src={hamdi} />
         </div>
-        <h2>Hi, I'm Hamdi. I'm a web developer.</h2>
+        <h2>Hi, I'm Hamdi. I'm a software engineer.</h2>
         <p>
           I love all things front-end and back-end web programming. I was born
           in Monastir and raised in Sousse, Tunisia.
