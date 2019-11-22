@@ -49,7 +49,6 @@ const AboutPage = () => {
               optimized web interfaces using HTML, CSS and vanilla JavaScript
               and to familiarize with programming with PHP and MySQL.
             </p>
-            <span className={aboutStyles.cdDate}>Aug 2011</span>
             <ul className={aboutStyles.contentSkills}>
               <li>
                 <a
@@ -61,6 +60,7 @@ const AboutPage = () => {
                 </a>
               </li>
             </ul>
+            <span className={aboutStyles.cdDate}>Aug 2011</span>
           </div>
         </div>
 
