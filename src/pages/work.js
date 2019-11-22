@@ -72,8 +72,9 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemText}>
             <h3>Caller Id Reputation</h3>
             <p>
-              Participated in the conversion of the mockup to a WordPress theme
-              and the integration of Nexmo API.
+              - Participated in the conversion of the mock-up to a WordPress
+              theme.
+              <br />- Integrated Nexmo API to the WordPress website wi.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>HTML</li>
@@ -92,8 +93,12 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemText}>
             <h3>Digital Referral CRM</h3>
             <p>
-              Participated in the development of Digital Referral CRM portal.
-              Tech used: HTML, CSS, JavaScript, CodeIgniter, PHP, MySQL, NodeJS.
+              - Created the dashboard template basing on Twitter Bootstrap.
+              <br />- Developed the back-end with CodeIgniter PHP MVC framework
+              utilizing its useful libraries such as calendaring class, file
+              uploading class, form validation, pagination class...
+              <br />- Developed and integrated a chat platform to the dashboard
+              using Node.js
             </p>
             <ul className={workStyles.contentSkills}>
               <li>PHP</li>
@@ -112,10 +117,12 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemText}>
             <h3>MCA Architects</h3>
             <p>
-              worked with the SEO team to refactor the url structure and setup
-              the url forwarding of some existing online projects. Also got to
-              work with the lead developer to apply those changes and to create
-              optimized web interfaces using HTML, CSS and JavaScript.
+              - Worked with the SEO team on refactoring the url structure and
+              setting up all different type of url forwarding.
+              <br />
+              - Created the website HTML / CSS template considering a responsive
+              web design.
+              <br />- Participated in the backend development with CakePHP.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>HTML</li>

@@ -5,7 +5,10 @@ import man from "../images/pic_about.svg"
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About" pageDescription="A brief recap about my Web development experience.">
+    <Layout
+      pageTitle="About"
+      pageDescription="A brief recap about my programming experience."
+    >
       <section
         className={[aboutStyles.cdContainer, aboutStyles.cdTimeline].join(" ")}
       >
@@ -22,8 +25,15 @@ const AboutPage = () => {
               For my graduation project I collaborated with a bookkeeping
               company to design and develop a tax return manager software.
               <br />
-              Used VB.net to create the user interfaces and SQL server to manage
-              the database.
+              Utilized VB.net to create the user interfaces and SQL server to
+              manage the database.
+              <br />
+              After delivering the project, I saw that I was able to create
+              something to make some people's life easier I was like "I got
+              this, bro!" Let me create more of this stuff.
+              <br />
+              In the meantime I was going to an internship in a web marketing
+              company owned by one of my teachers.
             </p>
             <span className={aboutStyles.cdDate}>Jul 2011</span>
           </div>
@@ -38,12 +48,12 @@ const AboutPage = () => {
           <div className={aboutStyles.cdTimelineContent}>
             <h2>Getting started with the web development</h2>
             <p>
-              During a 6 months internship with a digital marketing company in
-              Sousse, Tunisia. I worked with the SEO team to refactor the url
-              structure and setup the url forwarding of some existing online
-              projects. Also got to work with the lead developer to apply those
-              changes and to create optimized web interfaces using HTML, CSS and
-              JavaScript.
+              During a 6 months internship, I got to work with the SEO team to
+              apply changes on some existing online projects such as refactoring
+              the url structure and setting up all different type of url
+              forwarding. Also got to work with the lead developer to create
+              optimized web interfaces using HTML, CSS and vanilla JavaScript
+              and to familiarize with programming with PHP and MySQL.
             </p>
             <span className={aboutStyles.cdDate}>Aug 2011</span>
             <ul className={aboutStyles.contentSkills}>
@@ -76,10 +86,11 @@ const AboutPage = () => {
               PHP/MySQL, HTML, CSS and JavaScript or powered by a CMS such as
               WordPress. Then I worked on rebuilding some of these projects
               utilizing PHP MVC frameworks (CodeIgniter) and recent front-end
-              features (responsive design, BEM and jQuery). My work reflected to
-              positive results in level of maximizing the page loading speed,
-              improving the traffic on the websites, adding an easy way to
-              manage the content and delivering valid code standards.
+              features (responsive design, BEM, SCSS and jQuery). My work
+              reflected to positive results in level of maximizing the page
+              loading speed, improving the traffic on the websites, adding an
+              easy way to manage the content and delivering valid code
+              standards.
               <br />
             </p>
             <ul className={aboutStyles.contentSkills}>
@@ -87,27 +98,9 @@ const AboutPage = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="http://www.paristay.com/"
-                >
-                  paristay.com
-                </a>
-              </li>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
                   href="http://www.windward-islands.net/"
                 >
                   windward-islands.net
-                </a>
-              </li>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://www.coaching-foot.com/"
-                >
-                  coaching-foot.com
                 </a>
               </li>
             </ul>
@@ -124,7 +117,7 @@ const AboutPage = () => {
           <div className={aboutStyles.cdTimelineContent}>
             <h2>Freelancing</h2>
             <p>
-              By the end of 2016, after taking an online class about Essential
+              By the end of 2017, after taking an online class about Essential
               Javascript Development tools such as Node.js, I started taking
               contract work. One of the projects I have been working on remotely
               is calleridreputation.com
@@ -144,7 +137,7 @@ const AboutPage = () => {
                 </a>
               </li>
             </ul>
-            <span className={aboutStyles.cdDate}>Sep 2016</span>
+            <span className={aboutStyles.cdDate}>Jan 2018</span>
           </div>
         </div>
 
