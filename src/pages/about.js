@@ -28,13 +28,6 @@ const AboutPage = () => {
               <br />
               Utilized VB.net to create the user interfaces and SQL server to
               manage the database.
-              <br />
-              After delivering the project, I saw that I was able to create
-              something to make some people's life easier I was like "I got
-              this, bro!" Let me create more of this stuff.
-              <br />
-              In the meantime I was going to an internship in a web marketing
-              company owned by one of my teachers.
             </p>
             <span className={aboutStyles.cdDate}>Jul 2011</span>
           </div>

@@ -13,13 +13,25 @@ const WorkPage = ({ data }) => {
       <div className={workStyles.workContainer}>
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
-            <h3>Current portfolio</h3>
-            <p>Designed and developed from scratch with React.</p>
+            <h3>Portfolio</h3>
+            <p>
+              Powered by Gatsby. This website includes a temporary hidden blog
+              section manageable with a content management API called
+              Contentful.{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/hlachaal/new-portfolio"
+              >
+                Source code
+              </a>{" "}
+              available on GitHub.
+            </p>
             <ul className={workStyles.contentSkills}>
               <li>Figma</li>
               <li>CSS</li>
+              <li>GraphQL</li>
               <li>React</li>
-              <li>Styled Components</li>
               <li>Gatsby</li>
               <li>Git</li>
             </ul>
