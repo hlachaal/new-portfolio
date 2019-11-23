@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
         <div className={indexStyles.imageContainer}>
           <img alt="Hamdi Listening" src={hamdi} />
         </div>
-        <h2>Hi, I'm Hamdi. I'm a software engineer.</h2>
+        <h2>Hi, I'm Hamdi. I'm a Software Engineer.</h2>
         <p>
           I love all things front-end and back-end web programming. I was born
           in Monastir and raised in Sousse, Tunisia.
