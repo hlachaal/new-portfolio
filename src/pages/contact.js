@@ -5,7 +5,6 @@ import { navigate } from "gatsby-link"
 import contactStyles from "./contact.module.scss"
 
 const RECAPTCHA_KEY = process.env.GATSBY_APP_SITE_RECAPTCHA_KEY
-console.log(RECAPTCHA_KEY)
 if (typeof RECAPTCHA_KEY === "undefined") {
   throw new Error(`
   Env var GATSBY_APP_SITE_RECAPTCHA_KEY is undefined! 
