@@ -17,15 +17,7 @@ const WorkPage = ({ data }) => {
             <p>
               Powered by Gatsby. This website includes a temporary hidden blog
               section manageable with a content management API called
-              Contentful.{" "}
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/hlachaal/new-portfolio"
-              >
-                Source code
-              </a>{" "}
-              available on GitHub.
+              Contentful.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>Figma</li>
