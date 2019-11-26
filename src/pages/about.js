@@ -110,9 +110,9 @@ const AboutPage = () => {
           ></div>
 
           <div className={aboutStyles.cdTimelineContent}>
-            <h2>New Experience</h2>
+            <h2>New Skills</h2>
             <p>
-              During an internship with Occuspace I got to work with an awesome
+              During an internship with Occuspace I got to work with the Dev
               team on rebuilding the front-end of Waitz University the mobile
               app using React Native.
             </p>
