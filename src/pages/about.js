@@ -49,17 +49,6 @@ const AboutPage = () => {
               optimized web interfaces using HTML, CSS and vanilla JavaScript
               and to familiarize with programming with PHP and MySQL.
             </p>
-            <ul className={aboutStyles.contentSkills}>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://www.mca-architectes.com/"
-                >
-                  mca-architectes.com
-                </a>
-              </li>
-            </ul>
             <span className={aboutStyles.cdDate}>Aug 2011</span>
           </div>
         </div>
@@ -87,17 +76,6 @@ const AboutPage = () => {
               standards.
               <br />
             </p>
-            <ul className={aboutStyles.contentSkills}>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="http://www.windward-islands.net/"
-                >
-                  windward-islands.net
-                </a>
-              </li>
-            </ul>
             <span className={aboutStyles.cdDate}>Jan 2012</span>
           </div>
         </div>
@@ -120,17 +98,6 @@ const AboutPage = () => {
               developed the user's dashboard using CodeIgniter, Node.js, MySQL
               and Bootstrap.
             </p>
-            <ul className={aboutStyles.contentSkills}>
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://www.calleridreputation.com/"
-                >
-                  calleridreputation.com
-                </a>
-              </li>
-            </ul>
             <span className={aboutStyles.cdDate}>Jan 2018</span>
           </div>
         </div>

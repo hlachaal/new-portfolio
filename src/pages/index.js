@@ -27,13 +27,12 @@ const IndexPage = ({ data }) => {
         </div>
         <h2>Hi, I'm Hamdi. I'm a Software Engineer.</h2>
         <p>
-          I love all things front-end and back-end web programming. I was born
-          in Monastir and raised in Sousse, Tunisia.
+          I was born in Monastir and raised in Sousse, Tunisia.
           <br /> Four years after college, I sold everything and moved to
           California.
           <br /> <br />
           Need a developer? Want to hire me? Need some contract work? Just want
-          to chat? <Link to="/contact">Contact me</Link>
+          to chat? <Link to="/contact">Contact me</Link>.
         </p>
       </div>
       <Footer />
