@@ -1,0 +1,29 @@
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  .resumeHeader {
+    flex: 1;
+    background: #eee;
+    text-align: center;
+    padding: 10px 0 0 0;
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      .left {
+        flex: 3;
+        background: skyblue;
+      }
+      .right {
+        flex: 1;
+        background: turquoise;
+      }
+    }
+  }
+}
