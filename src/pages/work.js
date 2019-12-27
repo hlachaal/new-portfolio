@@ -15,9 +15,8 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemText}>
             <h3>Portfolio</h3>
             <p>
-              Powered by Gatsby. This website includes a temporary hidden blog
-              section manageable with a content management API called
-              Contentful.
+              Powered by Gatsby. This website includes a blog section manageable
+              with a content management API called Contentful.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>Figma</li>
