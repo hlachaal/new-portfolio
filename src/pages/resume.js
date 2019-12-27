@@ -190,7 +190,7 @@ const ResumePage = () => {
             <div className={resumeStyles.resumeItem}>
               <div className={resumeStyles.itemHeader}>Work Environment</div>
               <p>
-                Windows 10
+                Windows 10, Ubuntu
                 <br />
                 VS Code
                 <br />

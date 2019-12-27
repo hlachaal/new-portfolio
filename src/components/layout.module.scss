@@ -10,8 +10,61 @@
     padding: 20px 20px 0;
     overflow: hidden;
   }
-  .layoutContent {
+  .layoutWrapper {
     flex-grow: 1;
+    margin: 20px;
+  }
+  .header-wrapper {
+    display: flex;
+    .logo {
+      flex: 1;
+      font-family: "Gochi Hand";
+      color: #4e476b;
+      text-decoration: none;
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+    }
+    .nav {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .hamburger {
+      display: none;
+      label {
+        font-size: 35px;
+        color: #575b7a;
+      }
+    }
+    .nav-list {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .nav-item {
+      color: #999999;
+      font-size: 0.9rem;
+      margin-left: 1.3rem;
+      text-decoration: none;
+      flex: 1;
+    }
+    .nav-item:hover {
+      color: #666666;
+    }
+    .active-nav-item {
+      color: #4e476b;
+      font-weight: 600;
+    }
+    input:checked ~ .nav-list {
+      display: block;
+    }
+    input[type="checkbox"] {
+      display: none;
+    }
   }
   .layoutPageContent {
     flex-grow: 1;
@@ -20,25 +73,37 @@
     padding: 0px 20px 1.45rem;
   }
 }
-.logo {
-  font-family: "Gochi Hand";
-  color: #4e476b;
-  flex: 1;
-  text-decoration: none;
-  h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-}
+
 @media only screen and (max-width: 630px) {
-  .layoutMenu {
-    flex-direction: column !important;
-  }
-  .logo {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .layoutMenu li {
-    flex: 1;
+  .layoutContainer {
+    .header-wrapper {
+      .logo {
+        text-align: center;
+        margin-bottom: 10px;
+        flex: 1;
+      }
+      .nav {
+        nav {
+          width: 100%;
+          margin: 37px -30px 0 0;
+        }
+      }
+      .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        label {
+          display: block;
+          cursor: pointer;
+        }
+      }
+      .nav-list {
+        display: none;
+        li {
+          line-height: 3;
+          border-bottom: 1px solid #eaeaeb;
+        }
+      }
+    }
   }
 }
