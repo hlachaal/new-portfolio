@@ -16,6 +16,7 @@
   }
   .header-wrapper {
     display: flex;
+    margin-bottom: 40px;
     .logo {
       flex: 1;
       font-family: "Gochi Hand";
@@ -78,9 +79,7 @@
   .layoutContainer {
     .header-wrapper {
       .logo {
-        text-align: center;
-        margin-bottom: 10px;
-        flex: 1;
+        display: none;
       }
       .nav {
         nav {

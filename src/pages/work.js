@@ -95,7 +95,13 @@ const WorkPage = ({ data }) => {
             </ul>
           </div>
           <div className={workStyles.itemImage}>
-            <Img fluid={data.calleridreputation.childImageSharp.fluid} />
+            <a
+              href="https://calleridreputation.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Img fluid={data.calleridreputation.childImageSharp.fluid} />
+            </a>
           </div>
         </div>
 
@@ -142,7 +148,13 @@ const WorkPage = ({ data }) => {
             </ul>
           </div>
           <div className={workStyles.itemImage}>
-            <Img fluid={data.mca.childImageSharp.fluid} />
+            <a
+              href="https://www.mca-architectes.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Img fluid={data.mca.childImageSharp.fluid} />
+            </a>
           </div>
         </div>
       </div>
