@@ -15,7 +15,7 @@ const Layout = props => {
         pageDescription={props.pageDescription}
       />
       <div className={layoutStyles.layoutWrapper}>
-        <div className={layoutStyles.headerWrapper}>
+        {/* <div className={layoutStyles.headerWrapper}>
           <Link className={layoutStyles.logo} to="/">
             <h1>{"<Hamdi Lachaal />"}</h1>
           </Link>
@@ -50,7 +50,7 @@ const Layout = props => {
                     Work
                   </Link>
                 </li>
-                {/* <li>
+                 <li>
                 <Link
                   className={layoutStyles.navItem}
                   activeClassName={layoutStyles.activeNavItem}
@@ -59,7 +59,7 @@ const Layout = props => {
                 >
                   Blog
                 </Link>
-              </li> */}
+              </li> 
                 <li>
                   <Link
                     className={layoutStyles.navItem}
@@ -75,7 +75,7 @@ const Layout = props => {
           <div className={layoutStyles.hamburger}>
             <label htmlFor="toggle">&#9776;</label>
           </div>
-        </div>
+        </div> */}
         <div className={layoutStyles.layoutPageContent}>{props.children}</div>
       </div>
       <Footer />
