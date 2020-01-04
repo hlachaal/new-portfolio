@@ -3,9 +3,7 @@ import { Helmet } from "react-helmet"
 
 const Head = props => {
   let title = ""
-  props.blog
-    ? (title = props.pageTitle)
-    : (title = "Hamdi Lachaal - " + props.pageTitle)
+  props.blog ? (title = props.pageTitle) : (title = "  " + props.pageTitle)
   return (
     <Helmet>
       <title>{title}</title>
