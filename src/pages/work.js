@@ -11,7 +11,7 @@ const WorkPage = ({ data }) => {
       pageDescription="Some of the web programming projects that I worked on."
     >
       <div className={workStyles.workContainer}>
-        <div className={workStyles.workItem}>
+        {/* <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
             <h3>Portfolio</h3>
             <p>
@@ -30,7 +30,7 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemImage}>
             <Img fluid={data.website.childImageSharp.fluid} />
           </div>
-        </div>
+        </div> */}
 
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
@@ -83,8 +83,8 @@ const WorkPage = ({ data }) => {
             <p>
               - Participated in the conversion of the mock-up to a WordPress
               theme.
-              <br />- Created a custom WordPress plugin to integrate NEXMO
-              number insight API features to the website client dashboard.
+              <br />- Created a custom WordPress plugin.
+              <br />- Integrate NEXMO number insight API.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>HTML</li>
