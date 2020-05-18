@@ -58,27 +58,6 @@ const WorkPage = ({ data }) => {
 
         <div className={workStyles.workItem}>
           <div className={workStyles.itemText}>
-            <h3>Previous portfolio</h3>
-            <p>
-              -Designed and developed a one-page portfolio with using React.
-              <br />
-              -Created animations using Canvas.
-            </p>
-            <ul className={workStyles.contentSkills}>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Canvas</li>
-              <li>Git</li>
-            </ul>
-          </div>
-          <div className={workStyles.itemImage}>
-            <Img fluid={data.pportfolio.childImageSharp.fluid} />
-          </div>
-        </div>
-
-        <div className={workStyles.workItem}>
-          <div className={workStyles.itemText}>
             <h3>Caller Id Reputation</h3>
             <p>
               - Participated in the conversion of the mock-up to a WordPress
