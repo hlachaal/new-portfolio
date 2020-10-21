@@ -43,9 +43,9 @@ const IndexPage = ({ data }) => {
                 <Link
                   className={indexStyles.navItem}
                   activeClassName={indexStyles.activeNavItem}
-                  to="/work"
+                  to="/work-sample"
                 >
-                  Work
+                  Work sample
                 </Link>
               </li>
               {/* <li>

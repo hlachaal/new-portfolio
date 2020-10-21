@@ -47,7 +47,7 @@ const Layout = props => {
                     activeClassName={layoutStyles.activeNavItem}
                     to="/work-sample"
                   >
-                    Work
+                    Work sample
                   </Link>
                 </li>
                 {/* <li>
