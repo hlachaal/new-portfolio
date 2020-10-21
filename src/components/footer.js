@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+/* import { graphql, useStaticQuery } from "gatsby" */
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import footerStyles from "./footer.module.scss"
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
+  /* const data = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -15,12 +15,12 @@ const Footer = () => {
         }
       }
     }
-  `)
+  `) */
   return (
     <footer>
-      <p className={footerStyles.copyRight}>
+      {/* <p className={footerStyles.copyRight}>
         Created by {data.site.siteMetadata.author}, © 2019{"   "}
-      </p>
+      </p> */}
       <p className={footerStyles.socialMedia}>
         <span>
           <a href="https://github.com/hlachaal">

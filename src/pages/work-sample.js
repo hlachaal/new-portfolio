@@ -60,10 +60,10 @@ const WorkPage = ({ data }) => {
           <div className={workStyles.itemText}>
             <h3>Caller Id Reputation</h3>
             <p>
-              - Participated in the conversion of the mock-up to a WordPress
-              theme.
-              <br />- Created a custom WordPress plugin.
-              <br />- Integrate NEXMO number insight API.
+              - Participated in the transformation of the design to a
+              functioning WordPress theme.
+              <br />- Worked with NEXMO APIs to develop a customized web
+              application.
             </p>
             <ul className={workStyles.contentSkills}>
               <li>HTML</li>
